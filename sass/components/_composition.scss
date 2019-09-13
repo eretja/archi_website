@@ -20,7 +20,7 @@
        
 
         &:hover {
-            outline: 1.5rem solid $color-primary;
+            outline: 1.5rem solid #3b506b;
             transform: scale(1.05) translateY(-.5rem);
             box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
             z-index: 20;
@@ -31,8 +31,6 @@
     &:hover .composition__photo:not(:hover) {
         transform: scale(.95);
     }
-
-    //composition:hover composition__photo:not(:hover) {
 }
 
 .composition__photo--p1 {
