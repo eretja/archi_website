@@ -376,7 +376,7 @@ body {
         width: 33.33333333%;
         box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2); } }
     .composition .composition__photo:hover {
-      outline: 1.5rem solid #3b506b;
+      outline: 1.5rem solid #1c2540;
       transform: scale(1.05) translateY(-0.5rem);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
       z-index: 20; }
@@ -908,7 +908,7 @@ body {
   text-align: center; }
 
 .footer {
-  background-color: #3b506b;
+  background-color: #81899b;
   padding: 10rem 0;
   font-size: 1.4rem;
   color: #f7f7f7; }
