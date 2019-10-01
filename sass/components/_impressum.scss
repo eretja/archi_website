@@ -1,0 +1,33 @@
+.impressum {
+    font-size: 18px;
+
+&-header{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.row {
+    font-size: 16px;
+
+    span{
+        font-weight: bold;
+    }
+}
+
+&-advice {
+    margin-bottom: 2rem;
+    font-size: $default-font-size;
+    padding: 0 23rem 0 23rem;
+
+    @include respond(tab-port) {
+       padding: 3rem;
+    }
+
+
+    span{
+        font-weight: bold;
+    }
+}
+
+
+}

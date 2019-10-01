@@ -731,6 +731,25 @@ body {
   .row-uberuns ul {
     list-style-type: none; }
 
+.impressum {
+  font-size: 18px; }
+  .impressum-header {
+    text-align: center;
+    margin-bottom: 5rem; }
+  .impressum .row {
+    font-size: 16px; }
+    .impressum .row span {
+      font-weight: bold; }
+  .impressum-advice {
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    padding: 0 23rem 0 23rem; }
+    @media only screen and (max-width: 56.25em) {
+      .impressum-advice {
+        padding: 3rem; } }
+    .impressum-advice span {
+      font-weight: bold; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
