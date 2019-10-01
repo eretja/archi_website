@@ -50,7 +50,7 @@
             background-color: $color-primary;
         }
     }
-    
+
     &::after {
         content: "";
         display: inline-block;
@@ -93,4 +93,8 @@
         box-shadow: 0 .5rem 1rem rgba($color-black, .15);
         transform: translateY(0);
     }
+}
+
+.btn-about {
+    align-items: center;
 }

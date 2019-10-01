@@ -236,6 +236,9 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(0); }
 
+.btn-about {
+  align-items: center; }
+
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
@@ -335,7 +338,8 @@ body {
       height: auto;
       border-radius: 3px;
       background-color: #fff;
-      box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+      box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+      padding: 2rem; }
       .card__side {
         height: auto;
         position: relative;
@@ -721,6 +725,12 @@ body {
     width: 100%;
     object-fit: cover; }
 
+.row-uberuns {
+  padding-bottom: 10rem;
+  font-size: 1.5rem; }
+  .row-uberuns ul {
+    list-style-type: none; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -908,10 +918,12 @@ body {
   text-align: center; }
 
 .footer {
-  background-color: #81899b;
+  background-color: #eee;
   padding: 10rem 0;
   font-size: 1.4rem;
-  color: #f7f7f7; }
+  color: #f7f7f7;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem; }
   @media only screen and (max-width: 56.25em) {
     .footer {
       padding: 8rem 0; } }
@@ -927,7 +939,7 @@ body {
   .footer__navigation {
     border-top: 1px solid #777;
     padding-top: 2rem;
-    display: inline-block; }
+    display: center; }
     @media only screen and (max-width: 56.25em) {
       .footer__navigation {
         width: 100%;
@@ -940,7 +952,7 @@ body {
       margin-right: 1.5rem; }
   .footer__link:link, .footer__link:visited {
     color: #f7f7f7;
-    background-color: #333;
+    background-color: #1c2540;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
@@ -958,6 +970,33 @@ body {
       .footer__copyright {
         width: 100%;
         float: none; } }
+  .footer-header {
+    margin: 0 30rem 0 30rem; }
+    .footer-header p {
+      padding: 0;
+      color: #1c2540;
+      font-weight: bolder; }
+  .footer-contact {
+    margin: 0; }
+    .footer-contact p {
+      padding: 0;
+      background-color: #1c2540;
+      text-align: center; }
+      .footer-contact p a {
+        text-decoration: none; }
+      .footer-contact p a:visited {
+        color: white; }
+  .footer-contact1 {
+    margin: 0 10rem 0 10rem; }
+    .footer-contact1 p {
+      padding: 0;
+      color: #1c2540;
+      text-align: center;
+      word-break: keep-all; }
+      .footer-contact1 p span {
+        font-weight: bold;
+        margin-right: 2px;
+        margin-left: 3px; }
 
 .section-about {
   background-color: #f7f7f7;

@@ -173,7 +173,7 @@
         border-radius: 3px;
         background-color: $color-white;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
-        
+        padding: 2rem;
         &__side {
             height: auto;
             position: relative;
@@ -214,3 +214,4 @@
     }
 
 }
+

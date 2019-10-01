@@ -1,9 +1,12 @@
 .footer {
     
-    background-color:#81899b;
+    background-color:$color-grey-light-2;
     padding: 10rem 0;
     font-size: 1.4rem;
     color: $color-grey-light-1;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+   
 
     @include respond(tab-port) {
         padding: 8rem 0;
@@ -26,7 +29,7 @@
     &__navigation {
         border-top: 1px solid $color-grey-dark;
         padding-top: 2rem;
-        display: inline-block;
+        display: center;
 
         @include respond(tab-port) {
             width: 100%;
@@ -50,7 +53,7 @@
         &:link,
         &:visited {
             color: $color-grey-light-1;
-            background-color: $color-grey-dark-3;
+            background-color: $color-primary-dark;
             text-decoration: none;
             text-transform: uppercase;
             display: inline-block;
@@ -76,4 +79,45 @@
             float: none;
         }
     }
+
+    &-header{
+     margin: 0 30rem 0 30rem;
+       p {
+           padding: 0;
+           color: $color-primary-dark;
+           font-weight: bolder;
+          
+       }
+    }
+
+    &-contact{
+        margin: 0;
+          p {
+              padding: 0;
+              background-color: $color-primary-dark;
+              text-align: center;
+
+              a{
+                text-decoration: none; 
+              }
+              a:visited {
+                color: white;
+            }
+          }
+       }
+
+       &-contact1{
+        margin:  0 10rem 0 10rem;
+          p {
+              padding: 0;
+              color: $color-primary-dark;
+              text-align: center;
+              word-break: keep-all;
+            span{
+                font-weight: bold;
+                margin-right: 2px;
+                margin-left: 3px;
+            }
+          }
+       }
 }
