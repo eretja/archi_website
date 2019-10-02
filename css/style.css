@@ -243,7 +243,7 @@ body {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 52rem; }
+  height: 53rem; }
   .card__side {
     height: 52rem;
     transition: all .8s ease;
@@ -575,7 +575,7 @@ body {
 
 .story {
   width: 75%;
-  margin: 0 auto;
+  margin: 1rem auto;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 3px;
@@ -743,21 +743,38 @@ body {
   .impressum-advice {
     margin-bottom: 2rem;
     font-size: 1.6rem;
-    padding: 0 23rem 0 23rem; }
+    padding: 0 auto; }
     @media only screen and (max-width: 56.25em) {
       .impressum-advice {
         padding: 3rem; } }
     .impressum-advice span {
       font-weight: bold; }
 
+.barra-aceptacion-cookie {
+  background: #3b506b;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  padding: .5em 1em;
+  font-size: 14px;
+  font-family: sans-serif, arial, verdana;
+  width: 100%;
+  z-index: 999999; }
+  @media screen and (max-width: 480) {
+    .barra-aceptacion-cookie {
+      display: none !important; } }
+  .barra-aceptacion-cookie p {
+    color: #fff;
+    font-size: .8em;
+    margin-bottom: 0;
+    font-weight: 400;
+    letter-spacing: normal; }
+  .barra-aceptacion-cookie a, .barra-aceptacion-cookie a:hover {
+    color: #fff; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
-  .row:not(:last-child) {
-    margin-bottom: 8rem; }
-    @media only screen and (max-width: 56.25em) {
-      .row:not(:last-child) {
-        margin-bottom: 6rem; } }
   @media only screen and (max-width: 56.25em) {
     .row {
       max-width: 50rem;
@@ -938,7 +955,7 @@ body {
 
 .footer {
   background-color: #eee;
-  padding: 10rem 0;
+  padding: 8rem 0;
   font-size: 1.4rem;
   color: #f7f7f7;
   text-transform: uppercase;
@@ -1006,7 +1023,7 @@ body {
       .footer-contact p a:visited {
         color: white; }
   .footer-contact1 {
-    margin: 0 10rem 0 10rem; }
+    margin: 8rem 10rem 0 10rem; }
     .footer-contact1 p {
       padding: 0;
       color: #1c2540;

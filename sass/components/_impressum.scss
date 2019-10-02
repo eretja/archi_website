@@ -17,7 +17,7 @@
 &-advice {
     margin-bottom: 2rem;
     font-size: $default-font-size;
-    padding: 0 23rem 0 23rem;
+    padding: 0 auto;
 
     @include respond(tab-port) {
        padding: 3rem;

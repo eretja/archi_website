@@ -1,11 +1,19 @@
 .footer {
     
     background-color:$color-grey-light-2;
-    padding: 10rem 0;
+    padding:  $gutter-vertical 0;
     font-size: 1.4rem;
     color: $color-grey-light-1;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
+
+//       &:not(:last-child) {
+//          margin-bottom: $gutter-vertical;
+
+//         @include respond(tab-port) {
+//             margin-bottom: $gutter-vertical-small;
+//         }
+//    }
    
 
     @include respond(tab-port) {
@@ -107,7 +115,7 @@
        }
 
        &-contact1{
-        margin:  0 10rem 0 10rem;
+        margin: $gutter-vertical 10rem 0 10rem;
           p {
               padding: 0;
               color: $color-primary-dark;

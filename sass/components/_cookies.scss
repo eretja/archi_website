@@ -1,0 +1,29 @@
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+.barra-aceptacion-cookie{
+  background: $color-primary;
+  box-sizing: border-box;
+  position: fixed;
+  bottom:0;
+  padding: .5em 1em;
+  font-size: 14px;
+  font-family: sans-serif, arial, verdana;
+  width: 100%;
+  z-index: 999999;
+  @include media-query(480){
+    display: none !important;
+  }
+  p{
+    color: $color-white;
+    font-size: .8em;
+    margin-bottom: 0;
+    font-weight: 400;
+    letter-spacing: normal;
+  }
+  a, a:hover{
+    color: $color-white;
+  }
+}
