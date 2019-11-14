@@ -1012,6 +1012,9 @@ body {
       padding: 0;
       color: #1c2540;
       font-weight: bolder; }
+    @media only screen and (max-width: 56.25em) {
+      .footer-header {
+        margin: 0; } }
   .footer-contact {
     margin: 0; }
     .footer-contact p {

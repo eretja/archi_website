@@ -96,6 +96,10 @@
            font-weight: bolder;
           
        }
+
+       @include respond(tab-port) {
+        margin: 0;
+    }
     }
 
     &-contact{
